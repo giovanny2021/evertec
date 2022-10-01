@@ -25,12 +25,9 @@ Route::group(['prefix' => 'admin', 'as' => 'admin.', 'namespace' => 'Admin', 'mi
 
     Route::get('/payments/pay/create','PaymetController@create')->name('pay.create');
 
-    //Route::get('/payments/pay/show/{id}','PaymetController@show')->name('pay.show');
-
     Route::post('/payments/pay','PaymetController@Pay')->name('pay');
 
     Route::get('/payments/approval/{id}','PaymetController@Approval')->name('approval');
 
-   /// Route::post('/payments/cencelled','CencelledController@cencelled')->name('cencelled');
 
 });
