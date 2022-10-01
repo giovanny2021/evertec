@@ -21,7 +21,16 @@ Route::group(['prefix' => 'admin', 'as' => 'admin.', 'namespace' => 'Admin', 'mi
 
     Route::resource('users', 'UsersController');
 
-    Route::delete('products/destroy', 'ProductsController@massDestroy')->name('products.massDestroy');
+    Route::get('payDatatable','PaymetController@payDatatable')->name('payDatatable');
 
-    Route::resource('products', 'ProductsController');
+    Route::get('/payments/pay/create','PaymetController@create')->name('pay.create');
+
+    //Route::get('/payments/pay/show/{id}','PaymetController@show')->name('pay.show');
+
+    Route::post('/payments/pay','PaymetController@Pay')->name('pay');
+
+    Route::get('/payments/approval/{id}','PaymetController@Approval')->name('approval');
+
+   /// Route::post('/payments/cencelled','CencelledController@cencelled')->name('cencelled');
+
 });

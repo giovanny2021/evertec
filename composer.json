@@ -12,8 +12,10 @@
         "bugsnag/bugsnag-laravel": "^2.15",
         "doctrine/dbal": "^2.9",
         "fideloper/proxy": "^4.0",
+        "guzzlehttp/guzzle": "^7.5",
         "laravel/framework": "^6.0",
         "laravel/tinker": "^1.0",
+        "realrashid/sweet-alert": "^5.1",
         "yajra/laravel-datatables-oracle": "~9.0"
     },
     "require-dev": {
