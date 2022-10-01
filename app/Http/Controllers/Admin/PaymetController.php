@@ -13,6 +13,7 @@ class PaymetController extends Controller
 {
     public function Pay(Request $request)
     {
+        abort_unless(Gate::allows('pay_access'), 403);
         $rules = [
             'customer_name' => 'required', 'max:80',
             'customer_email' => 'required', 'max:120',
@@ -211,6 +212,8 @@ class PaymetController extends Controller
 
     public function Approval($id)
     {
+
+        abort_unless(Gate::allows('pay_access'), 403);
         $json =  [
             "auth" => [
                   "login" => env('BASE_LOGIN'),

@@ -14,9 +14,7 @@
                         {{ csrf_field() }}
                         <h1>
                             <div class="login-logo">
-                                <a href="#">
-                                    {{ trans('global.site_title') }}
-                                </a>
+                                Evertec
                             </div>
                         </h1>
                         <p class="text-muted">{{ trans('global.login') }}</p>
