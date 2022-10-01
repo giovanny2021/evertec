@@ -1,35 +1,11 @@
-# Laravel + CoreUI: Adminpanel Boilerplate
+## Instalacion
 
-It is a demo project for demonstrating what can be generated with new 2019 version of [QuickAdminPanel](https://2019.quickadminpanel.com) tool. This boilerplate was fully __generated__, without adding any custom line of code.
+- Clonar repositorio con __git clone__
+- Copar el archivo __.env.example__  y sobre escribirlo como  __.env__ 
+- Agregar en consola __composer install__
+- Agregar en consola __php artisan key:generate__
+- Base de Datos evertec
+- Agregar en consola __php artisan migrate --seed__ 
+- Credenciales __admin@admin.com__ - __password__
 
-## What's inside
 
-- Adminpanel based on [CoreUI theme](https://coreui.io/): with default one admin user (_admin@admin.com/password_) and two roles
-- Users/Roles/permissions management function (based on our own code similar to Spatie Roles-Permissions)
-- One demo CRUD for Products management - name/description/price
-- Everything that is needed for CRUDs: model+migration+controller+requests+views
-
-From that boilerplate you can manually create more CRUDs, assign permissions etc. Or use our [online generator](https://2019.quickadminpanel.com) for this.
-
-## How to use
-
-- Clone the repository with __git clone__
-- Copy __.env.example__ file to __.env__ and edit database credentials there
-- Run __composer install__
-- Run __php artisan key:generate__
-- Run __php artisan migrate --seed__ (it has some seeded data for your testing)
-- That's it: launch the main URL or go to __/login__ and login with default credentials __admin@admin.com__ - __password__
-
-## License
-
-Basically, feel free to use and re-use any way you want.
-
----
-
-## More from our LaravelDaily Team
-
-- Check out our adminpanel generator [QuickAdminPanel](https://quickadminpanel.com)
-- Read our [Blog with Laravel Tutorials](https://laraveldaily.com)
-- FREE E-book: [50 Laravel Quick Tips (and counting)](https://laraveldaily.com/free-e-book-40-laravel-quick-tips-and-counting/)
-- Subscribe to our [YouTube channel Laravel Business](https://www.youtube.com/channel/UCTuplgOBi6tJIlesIboymGA)
-- Enroll in our [Laravel Online Courses](https://laraveldaily.teachable.com/)
