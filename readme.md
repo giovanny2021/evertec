@@ -11,16 +11,6 @@ It is a demo project for demonstrating what can be generated with new 2019 versi
 
 From that boilerplate you can manually create more CRUDs, assign permissions etc. Or use our [online generator](https://2019.quickadminpanel.com) for this.
 
-## Screenshots
-
-![Laravel + CoreUI screenshot 01](https://laraveldaily.com/wp-content/uploads/2019/04/Screen-Shot-2019-04-17-at-5.49.46-AM.png)
-
-![Laravel + CoreUI screenshot 02](https://laraveldaily.com/wp-content/uploads/2019/04/Screen-Shot-2019-04-17-at-5.51.26-AM.png)
-
-![Laravel + CoreUI screenshot 03](https://laraveldaily.com/wp-content/uploads/2019/04/Screen-Shot-2019-04-17-at-5.51.10-AM.png)
-
-![Laravel + CoreUI screenshot 04](https://laraveldaily.com/wp-content/uploads/2019/04/Screen-Shot-2019-04-17-at-5.52.03-AM.png)
-
 ## How to use
 
 - Clone the repository with __git clone__
